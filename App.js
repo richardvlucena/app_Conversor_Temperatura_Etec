@@ -1,11 +1,15 @@
 import { StyleSheet, Text, Touchable, View,TextInput, TouchableOpacity  } from 'react-native';
+<<<<<<< HEAD
 import { Alert } from 'react-native-web';
+=======
+>>>>>>> 2f2c5cef7286f8f28dde568ec69d0847138ab541
 export default function App() {
   function teste(){
     Alert.alert('Testado');
   }
   return (
     <View style={styles.container}>
+<<<<<<< HEAD
       <Text style={styles.title}>🥶 Aplicativo Temperatura 🥵</Text>
       <TextInput 
         style={styles.inputTemperature}
@@ -16,6 +20,13 @@ export default function App() {
    
       <TouchableOpacity onPress={teste}>
         <Text style={styles.buttonCalculated}>Calcular</Text>
+=======
+      <Text>🥶 Aplicativo Temperatura 🥵</Text>
+      <TextInput />
+   
+      <TouchableOpacity>
+        <Text>Calcular</Text>
+>>>>>>> 2f2c5cef7286f8f28dde568ec69d0847138ab541
       </TouchableOpacity>
       
     </View>
@@ -29,6 +40,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
 
+<<<<<<< HEAD
   },
   title: {
     textAlign: 'center',
@@ -55,5 +67,14 @@ const styles = StyleSheet.create({
     padding: 10,
     borderColor:  '#000',
     borderWidth: 1,
+=======
+  },
+  title: {
+    textAlign: 'center',
+    marginTop: 40,
+    marginBottom: 40,
+    fontSize: 22,
+    color: '#000',
+>>>>>>> 2f2c5cef7286f8f28dde568ec69d0847138ab541
   }
 });
